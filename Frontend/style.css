@@ -1,0 +1,311 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body 
+  {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.prismic.io/strategically/1ae0f836-34d6-41d7-af32-b03826add543_105626647_m_normal_none.jpg?auto=compress,format&rect=0,139,2508,1393&w=1800&h=1000.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container 
+  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav 
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo a 
+  {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .logo a span 
+  {
+    color: #FF4500;
+  }
+  
+  ul 
+  {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  ul li 
+  {
+    margin-right: 20px;
+  }
+  
+  ul li a 
+  {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  ul li a:hover 
+  {
+    color: #FF4500;
+  }
+  
+  .buttons 
+  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login, .btn 
+  {
+    padding: 10px 20px;
+    text-decoration: right;
+    color: #FFF;
+    background-color: #FF4500;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login:hover, .btn:hover 
+  {
+    background-color: #DC143C;
+  }
+  
+  .content 
+  {
+    text-align: center;
+    margin-top: 100px;
+    color: #333;
+  }
+  
+  .content h2 
+  {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p 
+  {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) 
+  {
+    nav 
+    {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo 
+    {
+      margin-bottom: 20px;
+    }
+    
+    ul 
+    {
+      margin-top: 20px;
+    }
+    
+    .buttons 
+    {
+      margin-top: 10px;
+    }
+  }
+
+  .container 
+  {
+    width: 100%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.flights-table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flights-table th, .flights-table td 
+{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.flights-table th 
+{
+    background-color: #f4f4f4;
+}
+
+.flights-table tr:nth-child(even) 
+{
+    background-color: #f9f9f9;
+}
+
+.flights-table tr:hover 
+{
+    background-color: #f1f1f1;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.booking-form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form label 
+{
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.booking-form input, .booking-form select, .booking-form button 
+{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.booking-form input:focus, .booking-form select:focus
+ {
+    border-color: #999;
+}
+
+.booking-form button 
+{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.booking-form button:hover 
+{
+    background-color: #218838;
+}
+
+
+
+.payment-form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form label 
+{
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.payment-form input, .payment-form button 
+{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.payment-form input:focus 
+{
+    border-color: #999;
+}
+
+.payment-form button 
+{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.payment-form button:hover 
+{
+    background-color: #218838;
+}
+
+h1 
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.contact-form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label 
+{
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button
+ {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus 
+{
+    border-color: #999;
+}
+
+.contact-form button 
+{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form button:hover 
+{
+    background-color: #0056b3;
+}
